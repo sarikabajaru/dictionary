@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="logo">
+          <img src="images/logo.jpg" alt="" />
+        </div>
+        <div class="name">MY DICTIONARY APP</div>
+        <div class="btn">
+          <button id="historybtn" type="button">HISTORY</button>
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="search">
+          <p>Search for new word</p>
+          <div id="input">
+            <input id="input-Word" type="text" />
+            <i id="btn2" class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="historyPage"></div>
+        <div id="card">
+          <div>Search Your First Word</div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright <i class="fa-regular fa-copyright"></i> sarika.
+          All rights reserved.
+        </p>
+      </div>
+    </div>
+
+    <script src="App.js"></script>
+  </body>
+</html>
